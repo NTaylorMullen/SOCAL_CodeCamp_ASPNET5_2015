@@ -15,6 +15,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNet5Demo", "src\AspNet5D
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNet5DemoConsole", "src\AspNet5DemoConsole\AspNet5DemoConsole.xproj", "{7E14977D-74E6-4194-AEBD-E86463D5603E}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNet5DemoRaw", "src\AspNet5DemoRaw\AspNet5DemoRaw.xproj", "{DB73F208-7272-4AA4-BE82-6C6D0769AEB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{7E14977D-74E6-4194-AEBD-E86463D5603E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E14977D-74E6-4194-AEBD-E86463D5603E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E14977D-74E6-4194-AEBD-E86463D5603E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB73F208-7272-4AA4-BE82-6C6D0769AEB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB73F208-7272-4AA4-BE82-6C6D0769AEB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB73F208-7272-4AA4-BE82-6C6D0769AEB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB73F208-7272-4AA4-BE82-6C6D0769AEB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,5 +42,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F1349FFD-6672-493D-9588-5A6127AF9DAA} = {B168F4CA-75A0-47F4-84B3-7D73CF95EE54}
 		{7E14977D-74E6-4194-AEBD-E86463D5603E} = {B168F4CA-75A0-47F4-84B3-7D73CF95EE54}
+		{DB73F208-7272-4AA4-BE82-6C6D0769AEB1} = {B168F4CA-75A0-47F4-84B3-7D73CF95EE54}
 	EndGlobalSection
 EndGlobal
