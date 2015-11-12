@@ -4,11 +4,13 @@
 
   "dependencies": {
     "Microsoft.AspNet.IISPlatformHandler": "1.0.0-beta8",
-    "Microsoft.AspNet.Server.Kestrel": "1.0.0-beta8"
+    "Microsoft.AspNet.Server.Kestrel": "1.0.0-beta8",
+    "AspNet5DemoConsole": "1.0.0-*"
   },
 
   "commands": {
-    "web": "Microsoft.AspNet.Server.Kestrel"
+    "web": "Microsoft.AspNet.Server.Kestrel",
+    "hello": "AspNet5DemoConsole"
   },
 
   "frameworks": {
