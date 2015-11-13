@@ -1,13 +1,21 @@
 using Microsoft.AspNet.Builder;
 using Microsoft.AspNet.Http;
+using Microsoft.Framework.DependencyInjection;
 
 namespace AspNet5DemoRaw
 {
 	public class Startup
 	{
-		public void Configure(IApplicationBuilder app)
+        public void ConfigureServices(IServiceCollection services)
+        {
+            services.AddMvc();
+        }
+
+        public void Configure(IApplicationBuilder app)
 		{
             app.UseStaticFiles();
+
+            app.UseMvcWithDefaultRoute();
 
             app.Map("/otherpath", subApp =>
             {
