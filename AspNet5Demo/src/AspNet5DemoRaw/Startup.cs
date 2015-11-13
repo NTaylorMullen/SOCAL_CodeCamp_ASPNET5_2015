@@ -9,6 +9,7 @@ namespace AspNet5DemoRaw
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddSingleton<StringMagicUtility>();
         }
 
         public void Configure(IApplicationBuilder app)
